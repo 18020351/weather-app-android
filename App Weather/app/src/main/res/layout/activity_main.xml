@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
-    android:background="@drawable/main_background"
+    android:background="@drawable/back_ground6"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -29,6 +29,7 @@
         android:layout_marginTop="2dp"
         android:textSize="25dp"
         android:text="City Name"
+        android:textColor="#FF9800"
         android:id="@+id/textViewCity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -36,6 +37,7 @@
         android:layout_marginTop="2dp"
         android:textSize="25dp"
         android:text="Country Name"
+        android:textColor="#FF9800"
         android:id="@+id/textViewCountry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -83,8 +85,9 @@
                 android:src="@drawable/icon_humidity2_removebg" />
             <TextView
                 android:id="@+id/textViewHumidity"
-                android:textSize="18dp"
+                android:textSize="20dp"
                 android:text="Humidity"
+                android:textColor="@color/black"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -101,8 +104,9 @@
                 android:src="@drawable/icon_cloud_removebg" />
             <TextView
                 android:id="@+id/textViewCloud"
-                android:textSize="18dp"
+                android:textSize="20dp"
                 android:text="Cloud"
+                android:textColor="@color/black"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -119,8 +123,9 @@
                 android:src="@drawable/icon_wind_removebg" />
             <TextView
                 android:id="@+id/textViewWind"
-                android:textSize="18dp"
+                android:textSize="20dp"
                 android:text="Wind"
+                android:textColor="@color/black"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -134,7 +139,7 @@
         android:layout_marginTop="20dp"
         android:text="Update day:"
         android:textColor="#FF0000"
-        android:textSize="18dp" />
+        android:textSize="20dp" />
     <Button
         android:id="@+id/buttonChangeActivity"
         android:text="The next days"
